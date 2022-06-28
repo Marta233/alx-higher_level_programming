@@ -5,4 +5,4 @@ for i in range(0, 100):
     else:
         if i == 99:
             charend = "\n"
-        print(i, end=charend)
+        print(i, end=", ")
