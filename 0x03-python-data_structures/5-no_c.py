@@ -1,8 +1,7 @@
-#!/bin/python3
-def new_in_list(my_list, idx, element):
-    if idx < 0 and idx > (len(my_list) - 1):
-        return (my_list)
-
-    numbers = my_list.copy()
-    numbers[idx] = element
-    return (numbers)
+#!/usr/bin/python3
+def no_c(my_string):
+    listofchars = list(my_string)
+    for char in listofchars:
+        if char == 'c' or char == 'C':
+            listofchars.remove(char)
+    return("".join(listofchars))
