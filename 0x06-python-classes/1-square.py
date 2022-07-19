@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 1-squeare.py
+# 1-square.py
 # Marta A Marta
 """Define a class Square."""
 
