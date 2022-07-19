@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 1-squear.py
-# Marta A
+# Marta A Marta
 """Define a class Square."""
 
 
