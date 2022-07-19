@@ -2,6 +2,8 @@
 # 1-squear.py
 # Marta A
 """Define a class Square"""
+
+
 class Square:
     """Represent a square."""
 
@@ -10,5 +12,6 @@ class Square:
         """Initialize a new Square.
 
         Args:
-            size (int): The size of the new square,"""
+            size (int): The size of the new square.
+        """
         self.__size = size
