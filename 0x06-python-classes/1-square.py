@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 # 1-square.py
-# Marta A Marta
+# Marta A
 """Define a class Square."""
 
 
 class Square:
     """Represent a square."""
-    
-    
+
+
     def __init__(self, size):
         """Initialize a new Square.
         Args:
