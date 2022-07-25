@@ -1,4 +1,4 @@
-#!/ust/bin/python3
+#!/usr/bin/python3
 # 3-rectangle.py
 # Marta A
 """Define a Rectangle class."""
