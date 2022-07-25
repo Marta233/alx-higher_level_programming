@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 2-Rectangle
+# 2-Rectangle.py
 # Marta A
 """Define a Rectangle class."""
 
