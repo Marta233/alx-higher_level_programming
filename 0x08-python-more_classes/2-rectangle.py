@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 2-rectangle.py
+# 2-Rectangle
 # Marta A
 """Define a Rectangle class."""
 
@@ -9,26 +9,13 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """Intialize a new rectangle
+
         Args:
-            width (int): the width of the new rectangle. Defaults to 0.
-            height (int): the height of the new rectangle.. Defaults to 0.
+            width (int): the width of the new rectangle.
+            height (int): the height of the new rectangle.
         """
-        self.height = height
         self.width = width
-
-    @property
-    def height(self):
-        """Get/set the current Height of rectangle
-        """
-        return(self.height)
-
-    @height.setter
-    def height(self, value):
-        if not isinstance(value, int):
-            raise TypeError("height must be an integer")
-        if value < 0:
-            raise ValueError("height must be >= 0")
-        self.__height = value
+        self.height = height
 
     @property
     def width(self):
@@ -43,18 +30,22 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         self.__width = value
 
-    def area(self):
-        """To find the current rectangle
+    @property
+    def height(self):
+        """Get/set the current Height of rectangle"""
+        return(self.height)
 
-        Returns:
-            int area: height * Width
-        """
-        return self.__width * self.__height
+    @height.setter
+    def height(self, value):
+        if not isinstance(value, int):
+            raise TypeError("height must be an integer")
+        if value < 0:
+            raise ValueError("height must be >= 0")
+        self.__height = value
+
+    def area(self):
+        """Return: int area: height * Width. """
 
     def perimeter(self):
-        """To finde the perimeter of the rectangle
-
-        Returns:
-            perimeter: 2 * (H + W)
-        """
+        """Return the perimeter of rectangle."""
         return 2 * (self.__height + self.__width)
