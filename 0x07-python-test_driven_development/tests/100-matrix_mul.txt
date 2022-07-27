@@ -1,6 +1,3 @@
-# 100-matrix_mul.txt
-# Marta A
-
 ============================
 How to Use 100-matrix_mul.py
 ============================
