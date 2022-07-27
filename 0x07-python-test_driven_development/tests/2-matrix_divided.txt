@@ -1,5 +1,3 @@
-# 2-matrix_divided.txt
-# Marta A
 
 ==============================
 How to Use 2-matrix_divided.py
